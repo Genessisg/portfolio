@@ -4,6 +4,7 @@ body {
   background-size: 30px 30px;
   margin: 0%;
   padding-top: 120px;
+  color: #f8f8f8;
 }
 header {
   position: fixed;
@@ -15,7 +16,7 @@ header {
   align-items: center;
   padding: 15px 40px;
   background: #011c64;
-  color: rgb(156, 157, 255);
+  color: rgb(197, 198, 245);
 }
 .profile-pic {
   width: 200px;
@@ -67,8 +68,9 @@ header {
   border-style: groove;
   border-color: #6800f0;
   padding: 50px;
+  margin-top: 50px;
 }
-h3 {
+.about-me {
   background-color: #9e83c2;
   width: 95%;
   display: flex;
@@ -78,7 +80,8 @@ h3 {
   border-width: 5px;
   border-style: dotted;
   border-color: rgb(255, 255, 255);
-  padding: 50px 20px;
+  padding: 50px 10px;
+  margin-top: 50px;
 }
 .about-content {
 display: flex;
@@ -90,4 +93,13 @@ justify-content: center;
   max-width: 500px;
   font-size: 1.3em;
   text-align: left;
+}
+
+footer {
+  background-color: #9e83c2;
+  padding: 50px;
+  color: #f8f8f8;
+  text-align: center;
+  margin-top: 50px;
+  border-style: double;
 }
