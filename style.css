@@ -101,6 +101,8 @@ section.projects h2 {
   border-color: rgb(255, 255, 255);
   padding: 8px;
   margin: 0 auto;
+  height: 150px;
+  width: 150px;
 }
 
 .projects {
@@ -175,6 +177,8 @@ footer {
   display: flex;
   gap: 20px;
   padding-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .education-skills {
@@ -184,13 +188,12 @@ footer {
 
 .education-content {
   background-color: #ee99cb;
-  width: 350px;
+  padding-bottom: 30px;
 }
 
 .ed-photo {
-  height: 150px;
-  width: 150px;
   display: flex;
+  padding-top: 30px;
 }
 
 .skills-two {
@@ -205,6 +208,10 @@ footer {
   }
 .my-projects {
   flex-direction: column;
+}
+
+.journey {
+flex-direction: column;
 }
 
 }
