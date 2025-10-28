@@ -171,16 +171,22 @@ footer {
   clip-path: circle(50%);
 }
 
+.journey {
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+
 .education-skills {
   background-color: #9aa6e9;
-  margin-right: 450px;
+
 }
 
 .education-content {
   background-color: #ee99cb;
   width: 350px;
-  height: 250px;
 }
+
 .ed-photo {
   height: 150px;
   width: 150px;
