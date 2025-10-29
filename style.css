@@ -163,7 +163,10 @@ footer {
 .about-info {
   display: flex;
   gap: 35px;
-  background-color: #ee99cb;
+  background-color: #ecacd2;
+  outline-style: double;
+  outline-color: #f7e9ab;
+  outline-width: 5px;
 }
 
 .about-img img {
@@ -183,11 +186,13 @@ footer {
 
 .education-skills {
   background-color: #9aa6e9;
-
+  outline-style: double;
+  outline-color: #f7e9ab;
+  outline-width: 5px;
 }
 
 .education-content {
-  background-color: #ee99cb;
+  background-color: #ecacd2;
   padding-bottom: 30px;
 }
 
@@ -197,7 +202,15 @@ footer {
 }
 
 .skills-two {
+  background-color: #9aa6e9;
+  outline-style: double;
+  outline-color: #f7e9ab;
+  outline-width: 5px;
+}
 
+.skills-content {
+  background-color: #ecacd2;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
