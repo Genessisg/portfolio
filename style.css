@@ -1,3 +1,5 @@
+/* Global style */
+
 * {
   margin: 0; 
   padding: 0;
@@ -19,6 +21,8 @@ h2 {
 h3 {
   font-size: 24px;
 }
+
+/* Header and Nav */
 
 header {
   position: sticky;
@@ -55,18 +59,10 @@ main {
   align-items: center
 }
 
+/* Home Page Bio */
+
 .profile-pic {
   width: 200px;
-  height: 200px;
-  float: left;
-  margin-right: 20px;
-  clip-path: circle(50%);
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.space {
-   width: 200px;
   height: 200px;
   float: left;
   margin-right: 20px;
@@ -87,22 +83,10 @@ section.bio {
   font-size: 1.5em;
 }
 
+/* Home Page Projects */
+
 section.projects h2 {
   text-align: center;
-}
-
-.profile-card {
-  background-color: #9e83c2 ;
-  width: 92%;
-  box-shadow: #f1f0f0 8px 8px 15px;
-  flex-wrap: wrap;
-  border-width: 5px;
-  border-style: dotted;
-  border-color: rgb(255, 255, 255);
-  padding: 8px;
-  margin: 0 auto;
-  height: 150px;
-  width: 150px;
 }
 
 .projects {
@@ -123,6 +107,8 @@ section.projects h2 {
   display: flex;
   gap: 10px;
 }
+
+/* Home Page About */
 
 .about-me {
   background-color: #9e83c2;
@@ -151,14 +137,17 @@ justify-content: center;
   text-align: left;
 }
 
-footer {
-  background-color: #9e83c2;
-  padding: 50px;
-  color: #f8f8f8;
-  text-align: center;
-  margin-top: 50px;
-  border-style: double;
+.space {
+   width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  clip-path: circle(50%);
+  border-radius: 50%;
+  object-fit: cover;
 }
+
+/* About Page - About section*/
 
 .about-info {
   display: flex;
@@ -175,6 +164,8 @@ footer {
   height: 200px;
   clip-path: circle(50%);
 }
+
+/* About Page - Education section*/
 
 .journey {
   display: flex;
@@ -201,6 +192,36 @@ footer {
   padding-top: 30px;
 }
 
+.ed-img {
+  background-color: #9e83c2;
+  width: 92%;
+  box-shadow: #f1f0f0 8px 8px 15px;
+  flex-wrap: wrap;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: rgb(255, 255, 255);
+  padding: 8px;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+}
+
+.skills-photo {
+  background-color: #9e83c2;
+  box-shadow: #f1f0f0 8px 8px 15px;
+  flex-wrap: wrap;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: rgb(255, 255, 255);
+  display: block;
+  margin: 16px auto 0 auto;
+  padding: 8px;
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+/* About Page - Skills*/
+
 .skills-two {
   background-color: #9aa6e9;
   outline-style: double;
@@ -213,7 +234,18 @@ footer {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+footer {
+  background-color: #9e83c2;
+  padding: 50px;
+  color: #f8f8f8;
+  text-align: center;
+  margin-top: 50px;
+  border-style: double;
+}
+
+/* Media Query Tablet */
+
+@media screen and (max-width: 768px){
 
   header {
     flex-direction: column;
@@ -227,7 +259,9 @@ footer {
 flex-direction: column;
 }
 
-}
+} /* Ends Media query */
+
+/* Media query Mobile */
 
 @media screen and (max-width:425px) {
 
@@ -236,4 +270,4 @@ flex-direction: column;
     align-items: center;
   }
 
-}
+} /* ends media query*/
